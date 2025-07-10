@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "titulo": "Departamento céntrico con vista",
+    "ubicacion": "Cancún, Quintana Roo",
+    "precio": "$3,500,000 MXN",
+    "imagen": "prop1.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Casa familiar con alberca",
+    "ubicacion": "Playa del Carmen, Q.Roo",
+    "precio": "$5,200,000 MXN",
+    "imagen": "prop2.jpg"
+  }
+]
