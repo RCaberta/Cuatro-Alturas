@@ -13,7 +13,7 @@ export default function Header() {
         <button onClick={() => setMenuOpen(!menuOpen)} className="md:hidden px-2 py-1 border">
           &#9776;
         </button>
-        <ul className={\`\${menuOpen ? 'block' : 'hidden'} md:flex md:space-x-6\`}>
+        <ul className={`${menuOpen ? 'block' : 'hidden'} md:flex md:space-x-6\`}>
           <li><Link to="/" className="block px-4 py-2 hover:bg-gray-100">Inicio</Link></li>
           <li><Link to="/propiedades" className="block px-4 py-2 hover:bg-gray-100">Propiedades</Link></li>
           <li><Link to="/nosotros" className="block px-4 py-2 hover:bg-gray-100">Nosotros</Link></li>
