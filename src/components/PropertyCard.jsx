@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+
 export default function PropertyCard({ property }) {
   return (
     <div className="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
