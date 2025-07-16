@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 export default function PropertyCard({ property }) {
   return (
     <div className="border rounded-lg overflow-hidden shadow hover:shadow-lg transition">
-      <img
-        src={`/assets/${property.imagen}`}
+      <img src={`/assets/${property.imagen}`}
         alt={property.titulo}
         className="w-full h-48 object-cover"
       />
